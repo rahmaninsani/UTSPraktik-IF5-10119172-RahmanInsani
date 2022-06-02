@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen16">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/dimen24"
+            android:layout_height="@dimen/dimen24"
+            android:layout_marginBottom="@dimen/dimen16"
+            android:src="@drawable/left_arrow"
+            android:contentDescription="@string/back_button"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_title"
+            android:layout_marginTop="@dimen/dimen32"
+            style="@style/TextLatoBlack20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen32"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jenis_tes"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:id="@+id/check_jenis_tes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:text="@string/jenis_tes_1"
+                style="@style/TextRobotoGray800Regular14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_marginTop="@dimen/dimen16"
+                android:background="#eee"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen16"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal_terkonfirmasi"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:id="@+id/check_tanggal_terkonfirmasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:text="@string/tanggal_terkonfirmasi"
+                style="@style/TextRobotoGray800Regular14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_marginTop="@dimen/dimen16"
+                android:background="#eee"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen16"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nik"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:id="@+id/check_nik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:text="@string/nik"
+                style="@style/TextRobotoGray800Regular14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_marginTop="@dimen/dimen16"
+                android:background="#eee"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen16"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nama"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:id="@+id/check_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:text="@string/nama"
+                style="@style/TextRobotoGray800Regular14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_marginTop="@dimen/dimen16"
+                android:background="#eee"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen16"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal_lahir"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:id="@+id/check_tanggal_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:text="@string/tanggal_lahir"
+                style="@style/TextRobotoGray800Regular14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_marginTop="@dimen/dimen16"
+                android:background="#eee"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen16"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jenis_kelamin"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:id="@+id/check_jenis_kelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:text="@string/tanggal_lahir"
+                style="@style/TextRobotoGray800Regular14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_marginTop="@dimen/dimen16"
+                android:background="#eee"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen16"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hubungan_dengan_anda"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:id="@+id/check_hubungan_dengan_anda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:text="@string/hubungan_dengan_anda"
+                style="@style/TextRobotoGray800Regular14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_marginTop="@dimen/dimen16"
+                android:background="#eee"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen32"
+            android:background="@drawable/bg_green"
+            android:text="@string/check"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font14"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen16"
+            android:layout_marginBottom="@dimen/dimen32"
+            android:background="@drawable/bg_border"
+            android:text="@string/ubah"
+            android:textColor="@color/gray_600"
+            android:textSize="@dimen/font14"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen16">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/dimen24"
+            android:layout_height="@dimen/dimen24"
+            android:layout_marginBottom="@dimen/dimen16"
+            android:src="@drawable/left_arrow"
+            android:contentDescription="@string/back_button"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_title"
+            android:layout_marginTop="@dimen/dimen32"
+            style="@style/TextLatoBlack20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen94"
+            android:layout_marginTop="@dimen/dimen24"
+            android:background="@drawable/info_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen16">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_head"
+                style="@style/TextRobotoGray800Bold12"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_body"
+                android:layout_marginTop="@dimen/dimen12"
+                style="@style/TextRobotoGray600Regular12"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen24"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_tes"
+                    style="@style/TextRobotoGray800Bold12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen4"
+                    android:text="@string/harus_diisi"
+                   style="@style/TextRobotoGreenPrimaryBold10" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/jenis_tes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen16">
+
+                <RadioButton
+                    android:id="@+id/jenis_tes_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_tes_1"
+                    android:buttonTint="@color/green_primary"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/jenis_tes_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_tes_2" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen24"
+            android:orientation="vertical">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tanggal_terkonfirmasi"
+                    style="@style/TextRobotoGray800Bold12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen4"
+                    android:text="@string/harus_diisi"
+                    style="@style/TextRobotoGreenPrimaryBold10" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tanggal_terkonfirmasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:padding="@dimen/dimen12"
+                android:background="@drawable/bg_gray"
+                android:drawableEnd="@drawable/calendar"
+                android:hint="@string/tanggal_terkonfirmasi_placeholder"
+                android:textSize="@dimen/font14"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen24"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nik"
+                style="@style/TextRobotoGray800Bold12" />
+
+            <EditText
+                android:id="@+id/nik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:padding="@dimen/dimen12"
+                android:background="@drawable/bg_gray"
+                android:hint="@string/nik_placeholder"
+                android:textSize="@dimen/font14"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen24"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nama"
+                    style="@style/TextRobotoGray800Bold12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen4"
+                    android:text="@string/harus_diisi"
+                    style="@style/TextRobotoGreenPrimaryBold10" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:padding="@dimen/dimen12"
+                android:background="@drawable/bg_gray"
+                android:hint="@string/nama_placeholder"
+                android:textSize="@dimen/font14"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen24"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tanggal_lahir"
+                    style="@style/TextRobotoGray800Bold12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen4"
+                    android:text="@string/harus_diisi"
+                    style="@style/TextRobotoGreenPrimaryBold10" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tanggal_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen8"
+                android:padding="@dimen/dimen12"
+                android:background="@drawable/bg_gray"
+                android:drawableEnd="@drawable/calendar"
+                android:hint="@string/tanggal_lahir_placeholder"
+                android:textSize="@dimen/font14"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen24"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_kelamin"
+                    style="@style/TextRobotoGray800Bold12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen4"
+                    android:text="@string/harus_diisi"
+                    style="@style/TextRobotoGreenPrimaryBold10" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/jenis_kelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen16">
+
+                <RadioButton
+                    android:id="@+id/jenis_kelamin_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_kelamin_1"
+                    android:buttonTint="@color/green_primary"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/jenis_kelamin_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_kelamin_2" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen24"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hubungan_dengan_anda"
+                    style="@style/TextRobotoGray800Bold12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen4"
+                    android:text="@string/harus_diisi"
+                    style="@style/TextRobotoGreenPrimaryBold10" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/hubungan_dengan_anda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen16">
+
+                <RadioButton
+                    android:id="@+id/hubungan_dengan_anda_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hubungan_dengan_anda_1"
+                    android:buttonTint="@color/green_primary"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/hubungan_dengan_anda_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hubungan_dengan_anda_2" />
+
+                <RadioButton
+                    android:id="@+id/hubungan_dengan_anda_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hubungan_dengan_anda_3" />
+
+                <RadioButton
+                    android:id="@+id/hubungan_dengan_anda_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hubungan_dengan_anda_4" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox_agree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen32"
+            android:paddingStart="@dimen/dimen16"
+            android:buttonTint="@color/green_primary"
+            android:checked="true"
+            style="@style/TextRobotoGray600Medium10"
+            android:text="@string/agreement" />
+
+        <Button
+            android:id="@+id/selanjutnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dimen32"
+            android:background="@drawable/bg_green"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font14"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>

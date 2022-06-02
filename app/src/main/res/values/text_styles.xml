@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<resources>
+    <style name="LatoBlack" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/lato_black</item>
+    </style>
+
+    <style name="TextLatoBlack20" parent="LatoBlack">
+        <item name="android:textSize">@dimen/font20</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextRobotoGray800Bold12">
+        <item name="android:textSize">@dimen/font12</item>
+        <item name="android:textColor">@color/gray_800</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextRobotoGray600Regular12">
+        <item name="android:textSize">@dimen/font12</item>
+        <item name="android:textColor">@color/gray_600</item>
+    </style>
+
+    <style name="TextRobotoGreenPrimaryBold10">
+        <item name="android:textSize">@dimen/dimen10</item>
+        <item name="android:textColor">@color/green_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextRobotoGray600Medium10">
+        <item name="android:textSize">@dimen/dimen10</item>
+        <item name="android:textColor">@color/gray_600</item>
+    </style>
+
+    <style name="TextRobotoGray800Regular14">
+        <item name="android:textSize">@dimen/font14</item>
+        <item name="android:textColor">@color/gray_800</item>
+    </style>
+
+
+
+
+
+</resources>

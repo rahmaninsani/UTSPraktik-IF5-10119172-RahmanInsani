@@ -1,0 +1,52 @@
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa,  2022
+-->
+
+<resources>
+    <string name="app_name">UTSPraktik-IF5-10119172-RahmanInsani</string>
+    <string name="back_button">Back Button</string>
+    <string name="form_title">Form Pengisian Data</string>
+    <string name="info_head">Info</string>
+    <string name="info_body">Form berikut ini bertujuan untuk memberikan informasi kepada pusat agar dapat mudah dilaporkan</string>
+
+    <string name="jenis_tes">Jenis Tes</string>
+    <string name="jenis_tes_1">Rapid Antigen</string>
+    <string name="jenis_tes_2">PCR</string>
+
+    <string name="harus_diisi">• Harus Diisi</string>
+
+    <string name="tanggal_terkonfirmasi">Tanggal Terkonfirmasi</string>
+    <string name="tanggal_terkonfirmasi_placeholder">Pilih Tanggal</string>
+
+    <string name="nik">NIK</string>
+    <string name="nik_placeholder">Masukkan NIK</string>
+
+    <string name="nama">Nama</string>
+    <string name="nama_placeholder">Masukkan nama</string>
+
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="tanggal_lahir_placeholder">Pilih Tanggal</string>
+
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="jenis_kelamin_1">Laki - laki</string>
+    <string name="jenis_kelamin_2">Perempuan</string>
+
+    <string name="hubungan_dengan_anda">Hubungan Dengan Anda</string>
+    <string name="hubungan_dengan_anda_1">Orangtua</string>
+    <string name="hubungan_dengan_anda_2">Suami/Istri</string>
+    <string name="hubungan_dengan_anda_3">Anak</string>
+    <string name="hubungan_dengan_anda_4">Kerabat Lainnya</string>
+
+    <string name="agreement">Dengan ini saya menyetujui bahwa data yang saya isikan adalah benar</string>
+
+    <string name="next">Selanjutnya</string>
+
+    <string name="check_title">Cek Kembali Isian Data</string>
+    <string name="check">Check hasil Test</string>
+    <string name="ubah">Ubah</string>
+
+</resources>
