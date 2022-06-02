@@ -3,7 +3,7 @@
     Nama    : Rahman Insani
     Kelas   : IF-5
 
-    Selasa,  2022
+    Kamis, 02 Juni 2022
 -->
 
 <resources>
@@ -48,5 +48,9 @@
     <string name="check_title">Cek Kembali Isian Data</string>
     <string name="check">Check hasil Test</string>
     <string name="ubah">Ubah</string>
+
+    <string name="done_title">Berhasil Mendapatkan Akses</string>
+    <string name="done_body">Silahkan tap tombol di bawah untuk memulai mengisi form Lapor Kesehatan Harian.</string>
+    <string name="ok">OK</string>
 
 </resources>

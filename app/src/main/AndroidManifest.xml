@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Kamis, 02 Juni 2022
+-->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.rahmaninsani.utspraktik_if5_10119172_rahmaninsani">
@@ -13,6 +22,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UTSPraktikIF510119172RahmanInsani"
         tools:targetApi="31">
+        <activity
+            android:name=".DoneActivity"
+            android:exported="false" />
         <activity
             android:name=".CheckActivity"
             android:exported="false" />

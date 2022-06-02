@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Kamis, 02 Juni 2022
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoneActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/dimen16"
+    android:paddingVertical="@dimen/dimen24">
+
+    <ImageView
+        android:layout_width="204dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:background="@drawable/illustration"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen24"
+        android:text="@string/done_title"
+        style="@style/TextRobotoGray800Bold14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen8"
+        android:layout_marginHorizontal="@dimen/dimen36"
+        android:textAlignment="center"
+        android:text="@string/done_body"
+        style="@style/TextRobotoGray600Regular12"/>
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen24"
+        android:background="@drawable/bg_green"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font14"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
